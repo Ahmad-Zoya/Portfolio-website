@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logo.jpg" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>AI/ML student</p>
+            <h1>Hi, I'm <span>Zoya</span> Ahmad <br> from ZHCET, AMU</h1>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub">About Me</h1>
+                <p>I'm a B.Tech. Artificial Intelligence student with a passion for machine 
+                    learning and innovation. My projects include Facial Recognition Attendance System, 
+                    Traffic Control using Reinforcement Learning, and Garment Try On. 
+                    I'm also exploring Data Analysis field and cybersecurity. 
+                    Proficient in PyTorch, TensorFlow, and Python, I'm excited to learn 
+                    and grow through new experiences.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Machine Learning</span><br> Developing ML models</li>
+                            <li><span>Programming</span><br> Python, PyTorch, TensorFlow</li>
+                            <li><span>Web Dev</span><br> Building websites</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2024</span><br>Working at a Startup-SignSense</li>
+                            <li><span>June-July 2023</span><br> IIT Roorkee Intern</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br> Bachelors of Technology- Artificial Intelligence from ZHCET, AMU</li>
+                            <li><span>2021</span><br> Class XII from St. Ann's Sr. Sec. School</li>
+                            <li><span>2019</span><br> Class X from St. Ann's Sr. Sec. School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-titles">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <div class="icon-container">
+                    <i class="fas fa-traffic-light"></i>
+                </div>
+                <h2>Traffic Signal Control Using Reinforcement Learning</h2>
+                <p>Developed a traffic control system using Q-learning, improving traffic efficiency in urban road networks. Utilized PyTorch and TensorFlow for model implementation.</p>
+                <a href="https://github.com/Ahmad-Zoya/Traffic-Signal-Control-using-Reinforcement-Learning" target="_blank">Learn More</a>
+            </div>
+            <div class="project">
+                <div class="icon-container">
+                    <i class="fas fa-tshirt"></i>
+                </div>
+                <h2>Garment Try-On: Synthesizing Realistic Visualizations</h2>
+                <p>Implemented advanced image synthesis techniques to create photorealistic visuals, enhancing virtual garment try-on experiences.</p>
+            </div>
+            <div class="project">
+                <div class="icon-container">
+                    <i class="fas fa-user-check"></i>
+                </div>
+                <h2>Attendance System Using Facial Recognition</h2>
+                <p>Deployed an anti-spoofing facial recognition system for attendance tracking using Python, OpenCV, and FaceNet.</p>
+                <a href="https://github.com/Ahmad-Zoya/Attendance-System-using-Facial-Recognition" target="_blank">Learn More</a>
+            </div>
+            <div class="project">
+                <div class="icon-container">
+                    <i class="fas fa-music"></i>
+                </div>
+                <h2>Spotify Clone - Your Favorite Music</h2>
+                <p>Developed a web-based music player interface resembling Spotify using HTML, CSS, and JavaScript with NCS music collection.</p>
+                <a href="https://github.com/Ahmad-Zoya/Spotify-clone" target="_blank">Learn More</a>
+            </div>
+            <div class="project">
+                <div class="icon-container">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <h2>Maze Problem Using Q-Learning</h2>
+                <p>Implemented a Q-learning agent for navigation in a grid environment, discovering the shortest path using reinforcement learning techniques.</p>
+                <a href="https://github.com/Ahmad-Zoya/Maze-implementation-through-Q-learning" target="_blank">Learn More</a>
+            </div>
+            <div class="project">
+                <div class="icon-container">
+                    <i class="fas fa-satellite-dish"></i>
+                </div>
+                <h2>Detecting Location Using Night-Time Satellite Images</h2>
+                <p>Developed a system to identify locations from night-time satellite images using machine learning techniques.</p>
+                <a href="https://github.com/Ahmad-Zoya/Determining-location-of-a-region-using-Night-Time-Images-of-a-satellite" target="_blank">Learn More</a>
+            </div>
+            <div class="project">
+                <div class="icon-container">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h2>Detection and Aversion of Adversarial Attacks on ML Models</h2>
+                <p>Exploring methods to detect and avert adversarial attacks on machine learning models using adversarial training and anomaly detection techniques.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Resume Section -->
+<div id="resume">
+    <div class="container">
+        <h1 class="sub-titles">Resume</h1>
+        <div class="resume-content">
+            <p>You can view or download my resume using the link below:</p>
+            <a href="https://drive.google.com/file/d/1n6O7HRfxtBJiUX8IlnYYyvE710x6CMOe/view?usp=sharing" target="_blank" class="btn-resume">View My Resume</a>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-titles">Contact Me</h1>
+        <div class="contact-content">
+            <p>Feel free to reach out to me via email or phone.</p>
+            <ul>
+                <li><strong>Email:</strong> zoyaahmadamu@gmail.com</li>
+                <li><strong>Phone:</strong> +91-9027928974</li>
+            </ul>
+            <p>Or, connect with me on social media:</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/zoya-ahmad-b83aaa257/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Ahmad-Zoya" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+</html>
